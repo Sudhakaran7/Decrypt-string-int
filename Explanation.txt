@@ -1,0 +1,52 @@
+Given a string s formed by digits ('0' - '9') and '#' . We want to map s to English lowercase characters as follows:
+
+Characters ('a' to 'i') are represented by ('1' to '9') respectively.
+Characters ('j' to 'z') are represented by ('10#' to '26#') respectively. 
+Return the string formed after mapping.
+
+It's guaranteed that a unique mapping will always exist.
+
+Input Description:
+S a string as input.
+
+Output Description:
+Print the English lowercase value maped to the given integer.
+
+Sample Input:
+1326#
+
+Sample Output:
+acz
+
+Explanation:
+1->a, 3->c, 26->z. so the output is acz.
+
+Sample Input:
+13#11#12
+
+Sample Output:
+mkab
+
+Sample Input:
+718#
+
+Sample Output:
+gr
+
+Sample Input:
+21#24#2
+
+Sample Output:
+uxb
+
+Sample Input:
+123456789
+
+Sample Output:
+abcdefghi
+
+Sample Input:
+262524232321
+
+Sample Output:
+bfbebdbcbcba
